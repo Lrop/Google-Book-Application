@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nav-container{
     background-color: black;
 }
@@ -14,4 +15,15 @@ a{
     display: flexbox;
     display: inline;
     color: white;
+=======
+.navbar {
+    text-align: center;
+    background-color: black;
+} 
+nav {
+    background-color: black;
+}
+h2 {
+    text-align: center;
+>>>>>>> 7e7382eebc49543efa45b44a81fa47332756affc
 }
