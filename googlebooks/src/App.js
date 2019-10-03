@@ -4,6 +4,7 @@ import Search from "./pages/Search";
 import Saved from "./pages/Saved";
 import "./App.css";
 import NavBar from "./components/NavBar";
+import Jumbotron from "./components/Jumbotron";
 import('normalize.css');
 
 function App() {
@@ -12,12 +13,14 @@ function App() {
             <Router>
                   <div>
                         <NavBar />
+                        <Jumbotron />
 
                         <Switch>
                               <Route exact path="/" component={Search}>Search</Route>
                               <Route path="/saved" component={Saved}>Saved</Route>
                         </Switch>
                   </div>
+                 
             </Router>
       );
 }

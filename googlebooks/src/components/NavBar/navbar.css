@@ -1,0 +1,17 @@
+.nav-container{
+    background-color: black;
+}
+.header {
+    font-size: 30px;
+    text-align: center;
+    /* color: white; */
+}
+a{
+    color: white;
+}
+.button-two {
+    /* float: right; */
+    display: flexbox;
+    display: inline;
+    color: white;
+}
